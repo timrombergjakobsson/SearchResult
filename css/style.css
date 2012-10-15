@@ -142,3 +142,15 @@ li.g {
     margin-top: 0;
     margin-bottom: 20px;
 }
+
+.st, .ac {
+    line-height: 1.24;
+    width: 220px;
+    overflow:hidden;
+}
+
+
+.mslg > td {
+    padding-right: 6px;
+    padding-top: 4px;
+}
