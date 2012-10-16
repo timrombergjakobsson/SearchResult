@@ -51,6 +51,11 @@ td {
     vertical-align: top;
 }
 
+img {
+    height: 45px;
+    width: 116px; 
+}
+
 .gstl_0, .lst-t {
     height: 27px; 
     padding: 0px; 
@@ -88,11 +93,6 @@ td {
 
 .search-wrapper {
     margin-left: 80px;
-}
-
-img {
-    height: 45px;
-    width: 116px; 
 }
 
 .gbes#gbu, .gbes#gbq2, .gbes#gbq3, .gbesi#gb #gbu, .gbesi#gb #gbq2, .gbesi#gb #gbq3 {
@@ -370,7 +370,7 @@ img {
 
 
 .mw {
-max-width: 1197px;
+    max-width: 1197px;
 }
 
 .recent {
