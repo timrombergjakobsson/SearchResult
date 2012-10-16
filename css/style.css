@@ -21,6 +21,10 @@ td {
     vertical-align: top;
 }
 
+.superwrapper {
+    margin:0;
+}
+
 .gstl_0, .lst-t {
     height: 27px; 
     padding: 0px; 
@@ -42,6 +46,24 @@ td {
     width: 100%;
     z-index: 985;
     min-width: 980px;
+}
+
+#search-button {
+    margin-left: 560px;
+    bottom:10px ;
+}
+
+.gbes#gbu, .gbes#gbq2, .gbes#gbq3, .gbesi#gb #gbu, .gbesi#gb #gbq2, .gbesi#gb #gbq3 {
+    padding-top: 20px;
+}
+.gbet#gbq2, .gbeti#gb #gbq2, .gbes#gbq2, .gbesi#gb #gbq2 {
+    margin-left: 140px;
+    padding-bottom: 0;
+}
+
+#gbq2 {
+    top: 0px;
+    z-index: 986;
 }
 
 .gbqff {
@@ -99,7 +121,12 @@ td {
     border-bottom: 1px solid #EBEBEB;
 }
 
-.ab_name, #ab_shopping {
+.ab-name, #ab_shopping {
+    color: #DD4B39;
+    font: 20px "Arial";
+}
+
+.ab-name, #ab_shopping {
     color: #DD4B39;
     font: 20px "Arial";
     margin-left: 15px;
@@ -130,6 +157,15 @@ td {
 #appbar a {
     text-decoration: none;
 }
+
+#appbar {
+    background: white;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    width: 100%;
+    z-index: 3;
+}
+
 
 .ab-wrapper {
 	height: 57px;
@@ -181,6 +217,11 @@ td {
     display: inline-block;
     height: 11px;
     line-height: 0;
+    width: 19px;
+}
+
+.gsok_a img {
+    height: 11px;
     width: 19px;
 }
 
@@ -266,6 +307,13 @@ max-width: 1197px;
 .leftnav {
 	margin-left: 0;
 	background: #fff;
+    position: absolute;
+    top: 1px;
+    width: 132px;
+}
+
+.ms a:hover {
+    text-decoration: none;
 }
 
 .msel {
@@ -288,6 +336,19 @@ max-width: 1197px;
 	color: #222;
 }
 
+.mitem .kl, #showmodes {
+    padding-left: 16px;
+}
+
+.mitem, #showmodes {
+    line-height: 29px;
+}
+
+.more {
+    padding-left: 16px;
+    line-height: 29px;
+}
+
 .line-sep {
 	border-bottom: 1px solid #EBEBEB;
     margin-bottom: 14px;
@@ -295,6 +356,11 @@ max-width: 1197px;
     margin-right: 4px;
     margin-top: 14px;
 
+}
+
+#tbd, #atd {
+    display: block;
+    min-height: 1px;
 }
 
 .leftnav h2 {
@@ -315,6 +381,10 @@ h3, .med {
 
 .leftnav li {
     display:block;
+}
+
+.leftnav a {
+    text-decoration: none;
 }
 
 .tbt {
@@ -356,6 +426,10 @@ h3, .med {
 
 .internet-result {
 	padding-top: 6px;
+}
+
+.ires h3, #res h3, #tads h3, #tadsb h3, #mbEnd h3 {
+    font-size: medium;
 }
 
 li.g {
