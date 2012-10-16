@@ -11,9 +11,11 @@ img {
 table {
     border-spacing:0;
     border-collapse:collapse;
+    height:27px;
+    padding: 0;
 }
 
-form {
+form, fieldset {
     max-width: 572px;
 }
 
@@ -21,8 +23,32 @@ td {
     vertical-align: top;
 }
 
-.superwrapper {
-    margin:0;
+em {
+    font-weight: bold;
+    font-style: normal;
+}
+
+li.head, li.g, body, html, .std, .c h2, #mbEnd h2, h1 {
+    font-family: arial,sans-serif;
+}
+
+ol, ul, li {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+ol li {
+    list-style: none;
+}
+
+li {
+    line-height: 1.2;
+}
+
+td {
+    padding-left: 6px;
+    vertical-align: top;
 }
 
 .gstl_0, .lst-t {
@@ -48,9 +74,25 @@ td {
     min-width: 980px;
 }
 
-#search-button {
-    margin-left: 560px;
-    bottom:10px ;
+#gbq {
+    left: 0;
+    width: 100%;
+    z-index: 986;
+}
+
+#gbq {
+    position: absolute;
+    top: 0;
+
+}
+
+.search-wrapper {
+    margin-left: 80px;
+}
+
+img {
+    height: 45px;
+    width: 116px; 
 }
 
 .gbes#gbu, .gbes#gbq2, .gbes#gbq3, .gbesi#gb #gbu, .gbesi#gb #gbq2, .gbesi#gb #gbq3 {
@@ -59,6 +101,19 @@ td {
 .gbet#gbq2, .gbeti#gb #gbq2, .gbes#gbq2, .gbesi#gb #gbq2 {
     margin-left: 140px;
     padding-bottom: 0;
+}
+
+#gbu, #gbq1, #gbq3 {
+    z-index: 987;
+}
+
+#gbq1 {
+    left: 0;
+    margin: 0;
+    padding: 0;
+    margin-left: 15px;
+    position: absolute;
+    padding-top: 20px
 }
 
 #gbq2 {
@@ -70,10 +125,13 @@ td {
     max-width: 572px;
 }
 
-
-li.head, li.g, body, html, .std, .c h2, #mbEnd h2, h1 {
-    font-size: small;
-    font-family: arial,sans-serif;
+.gbqff {
+    border: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    width: 100%;
 }
 
 .mw {
@@ -85,29 +143,9 @@ li.head, li.g, body, html, .std, .c h2, #mbEnd h2, h1 {
    font-style: normal;
 }
 
-ol, ul, li {
-	border: 0;
-    margin: 0;
-    padding: 0;
-}
-
-ol li {
-    list-style: none;
-}
-
-li {
-	line-height: 1.2;
-}
-
-td {
-    padding-left: 6px;
-    vertical-align: top;
-}
-
 #content {
    margin-left: 14px;
    min-width: 833px;
-   margin-left: 0;
    padding-top: 0;
 }
 
@@ -123,15 +161,10 @@ td {
 
 .ab-name, #ab_shopping {
     color: #DD4B39;
-    font: 20px "Arial";
-}
-
-.ab-name, #ab_shopping {
-    color: #DD4B39;
-    font: 20px "Arial";
-    margin-left: 15px;
+    font: 22px "Arial";
+    margin-left: 18px;
     position: absolute;
-    top: 17px;
+    top: 90px;
 }
 
 .gbqlca {
@@ -147,9 +180,9 @@ td {
 .resultStats, .ab_center_col {
 	color: #999;
     font-size: 13px;
-    margin-left: 149px;
+    margin-left: 200px;
     position: absolute;
-    top: 23px;
+    top: 80px;
     overflow: hidden;
     white-space: nowrap;
 }
@@ -168,7 +201,7 @@ td {
 
 
 .ab-wrapper {
-	height: 57px;
+	height: 135px;
     border-bottom: 1px solid #EBEBEB;
 }
 
@@ -196,8 +229,21 @@ td {
     padding: 4px 6px 0;
 }
 
-.gbqfif, .gbqfsf {
-    font: 16px arial,sans-serif;
+.gsib_a {
+    padding: 6px 9px 0;
+}
+
+.search-lens {
+    background: url(https://ssl.gstatic.com/gb/images/j_e6a6aca6.png);
+    background-position: -357px 0;
+    display: inline-block;
+    height: 13px;
+    margin: 7px 19px;
+    width: 14px;
+}
+
+.gsib_a, .gsib_b {
+    vertical-align: top;
 }
 
 .gsib_b {
@@ -208,9 +254,6 @@ td {
 
 }
 
-.gsst_e {
-    opacity: 0.55;
-}
 
 .gsok_a {
     background: url('images/keyboard.gif') no-repeat center;
@@ -228,18 +271,19 @@ td {
 
 .gs_lc0 {
     position: relative;
+}
+
+#gbqfq {
     border: none;
     padding: 0px;
     margin: -0.0625em 0px 0px;
     height: 1.25em;
     width: 100%;
-    background-image: url(data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw%3D%3D);
     background-color: transparent;
     position: absolute;
     z-index: 6;
     left: 0px;
     outline: none;
-    background-position: initial initial;
 }
 
 .gbqfqw {
@@ -266,6 +310,14 @@ td {
     background-image: -o-linear-gradient(top,#4D90FE,#4787ED);
     background-image: linear-gradient(top,#4D90FE,#4787ED);
     border: 1px solid #3079ED;
+     -moz-border-radius: 6px; 
+    -webkit-border-radius: 6px; 
+}
+
+/* Style the search button hover state */
+.gbqfb:hover {
+    background: url(ico-search.png) no-repeat center #357AE8; 
+    border: 1px solid #2F5BB7;
 }
 
 .gbqfb, .gbqfba, .gbqfbb {
@@ -292,6 +344,28 @@ td {
 
 .gbes#gbx1, .gbes#gbx2, .gbes#gbqlw, .gbesi#gb #gbx1, .gbesi#gb #gbx2, .gbesi#gb #gbqlw {
     height: 71px;
+}
+
+#gbqlw {
+    display: table-cell;
+    height: 71px;
+    padding: 0;
+    padding-right: 16px;
+    position: relative;
+    vertical-align: middle;
+}
+
+#gbq {
+    position: absolute;
+    top: 0px;
+    white-space: nowrap;
+}
+
+.keyboard-image {
+    font-size: 16px;
+    padding: 0 2px;
+    white-space: nowrap;
+    line-height: 27px;
 }
 
 
@@ -322,7 +396,6 @@ max-width: 1197px;
 }
 
 .msel .kls {
-	border-left: 5px solid #DD4B39;
     padding-left: 11px;
 }
 
@@ -392,6 +465,10 @@ h3, .med {
     line-height: 1.2;
 }
 
+.tbt {
+    margin-bottom: 24px;
+}
+
 .tbos, .tbots, .tbotu {
 	color: #DD4B39;
 }
@@ -399,11 +476,27 @@ h3, .med {
 	font-weight: bold;
 }
 
+.tbpo {
+    margin-left: 16px;
+}
+
 .tbou, .tbos, .tbots, .tbotu {
 	margin-right: 8px;
     padding-left: 16px;
     padding-bottom: 3px;
     text-indent: -8px;
+}
+
+#leftnav #tbpi, #leftnav #swr {
+    margin-left: 16px;
+}
+
+#tbpi.pt.pi {
+    margin-top: -20px;
+}
+
+#lc a, .tbou > a.q, #tbpi, #tbtro, .tbt label, #prc_opt, a, .tbtctlabel, #swr a {
+    color: #222;
 }
 
 /* Center col */
@@ -414,7 +507,7 @@ h3, .med {
 
 
 .center-col, #foot {
-    margin-left: 132px;
+    margin-left: 190px;
     margin-right: 254px;
     padding: 0 8px;
     padding: 0 8px 0 8px;
@@ -426,6 +519,10 @@ h3, .med {
 
 .internet-result {
 	padding-top: 6px;
+}
+
+.related-content {
+    margin-left: 22px
 }
 
 .ires h3, #res h3, #tads h3, #tadsb h3, #mbEnd h3 {
@@ -443,10 +540,25 @@ li.g {
     overflow:hidden;
 }
 
+.s {
+    max-width: 42em;
+}
+
 
 .mslg > td {
     padding-right: 6px;
     padding-top: 4px;
+}
+
+.mslg .vsc {
+    border: 1px solid transparent;
+    -webkit-border-radius: 2px;
+    -webkit-transition: opacity .2s ease;
+    border-radius: 2px;
+    margin-top: 2px;
+    padding: 3px 0 3px 5px;
+    transition: opacity .2s ease;
+    width: 250px;
 }
 
 .mrf {
@@ -455,6 +567,10 @@ li.g {
 
 a.fl:link, .fl a, .flt, a.flt, .gl a:link, a.mblink, .mblink b {
     color: #12C;
+}
+
+.mblink:visited, a:visited {
+    color: #609;
 }
 
 .flt, .flt u, a.fl {
